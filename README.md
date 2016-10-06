@@ -4,10 +4,13 @@
 * Event bubbling based on component hierarchy rather than DOM hierarchy.
 * Drag and drop events.
 * Cross-platform events.
+* Better events for building desktop-grade interfaces.
 
 ## Events
 * onFocus
 * onBlur
+* onEnter
+* onLeave
 * onPointerEnter
 * onPointerLeave
 * onPointerDown
