@@ -4,7 +4,7 @@
 * Event bubbling based on component hierarchy rather than DOM hierarchy.
 * Drag and drop events.
 * Cross-platform events.
-* Better events for building desktop-grade interfaces.
+* Improved event system for building desktop-grade interfaces.
 * `stopPropagation` "namespaces".
 
 ## Events
