@@ -5,6 +5,7 @@
 * Drag and drop events.
 * Cross-platform events.
 * Better events for building desktop-grade interfaces.
+* `stopPropagation` "namespaces".
 
 ## Events
 * onFocus
