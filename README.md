@@ -24,3 +24,18 @@
 * onDropEnter
 * onDrop
 * onDropLeave
+
+```js
+import React from 'react';
+import { EventTarget } from 'redone-events';
+
+class Autocomplete extends React.Component {
+  render() {
+    return (
+      <EventTarget onEnter={e => console.log(e)}>
+        hello
+      </EventTarget>
+    );
+  }
+}
+```
