@@ -12,7 +12,7 @@ it('should fire on parent last', () => {
   const App = () =>
     <EventTarget onLeave={parentLeave}>
       <EventTarget className="child" onLeave={childLeave} />
-    </EventTarget>
+    </EventTarget>;
   const wrapper = mount(<App />);
   wrapper.find('.child').simulate('blur');
   expect(result).toBe('barfoo');

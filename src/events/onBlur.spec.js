@@ -12,7 +12,7 @@ it('should not bubble', () => {
   const App = () =>
     <EventTarget onBlur={parentBlur}>
       <EventTarget className="child" onBlur={childBlur} />
-    </EventTarget>
+    </EventTarget>;
   const wrapper = mount(<App />);
   wrapper.find('.child').simulate('blur');
   expect(result).toBe('bar');

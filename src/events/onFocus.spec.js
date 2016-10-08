@@ -12,7 +12,7 @@ it('should not bubble', () => {
   const App = () =>
     <EventTarget onFocus={parentFocus}>
       <EventTarget className="child" onFocus={childFocus} />
-    </EventTarget>
+    </EventTarget>;
   const wrapper = mount(<App />);
   wrapper.find('.child').simulate('focus');
   expect(result).toBe('bar');

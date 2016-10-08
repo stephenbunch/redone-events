@@ -12,7 +12,7 @@ it('should fire on parent first', () => {
   const App = () =>
     <EventTarget onEnter={parentEnter}>
       <EventTarget className="child" onEnter={childEnter} />
-    </EventTarget>
+    </EventTarget>;
   const wrapper = mount(<App />);
   wrapper.find('.child').simulate('focus');
   expect(result).toBe('foobar');
