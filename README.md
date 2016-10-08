@@ -7,9 +7,7 @@
 ## Features
 * Event bubbling based on component hierarchy rather than DOM hierarchy.
 * Drag and drop events.
-* Cross-platform events.
-* Improved event system for building desktop-grade interfaces.
-* `stopPropagation` "namespaces".
+* Pointer events.
 
 ## Events
 * onFocus
