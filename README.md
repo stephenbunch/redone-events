@@ -20,7 +20,6 @@
 * onPointerUp
 * onPointerCancel
 * onPointerMove
-* onScroll
 * onDragStart
 * onDrag
 * onDragEnd
